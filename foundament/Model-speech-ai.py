@@ -24,6 +24,9 @@ while True:
         break
     if quest == "stop":
         break
+
+
+    engine.say("Hi")
     
     ask_gpt(quest)
     engine.runAndWait()
